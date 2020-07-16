@@ -1,0 +1,34 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "semicolon": true,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration"
+    ],
+    "no-require-imports": true,
+    "no-duplicate-imports": true,
+    "import-spacing": true,
+    "ordered-imports": true,
+    "array-type": [
+      true,
+      "array"
+    ]
+  },
+  "rulesDirectory": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "conditional-action",
+  "version": "0.0.0",
+  "description": "Improve switch-cases with Conditional Actions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "tslint --project .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run lint && tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielMochi/conditional-action.git"
+  },
+  "keywords": [],
+  "author": "Gabriel Mochi <gmochi56@icloud.com>",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/GabrielMochi/conditional-action/issues"
+  },
+  "homepage": "https://github.com/GabrielMochi/conditional-action#readme",
+  "devDependencies": {
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6"
+  }
+}
