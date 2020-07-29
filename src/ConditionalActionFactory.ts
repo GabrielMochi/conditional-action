@@ -1,5 +1,5 @@
-import ConditionalAction from 'ConditionalAction';
-import NoTrueConditionException from 'NoTrueConditionException';
+import ConditionalAction from './ConditionalAction';
+import NoTrueConditionException from './NoTrueConditionException';
 
 export default class ConditionalActionFactory<P, R> {
 
