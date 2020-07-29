@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "lint": "tslint --project .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha -r ts-node/register test/*.test.ts",
     "build": "npm run lint && tsc",
     "prepublish": "npm run build"
   },
@@ -22,6 +22,11 @@
   },
   "homepage": "https://github.com/GabrielMochi/conditional-action#readme",
   "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
     "tslint": "^6.1.2",
     "typescript": "^3.9.6"
   }
