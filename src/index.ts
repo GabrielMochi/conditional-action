@@ -1,3 +1,7 @@
-export { default } from './ConditionalActionFactory';
-export { ActionType, ConditionType, default as ConditionalAction } from './ConditionalAction';
-export { default as NoTrueConditionException } from './NoTrueConditionException';
+import NoTrueConditionException from './exceptions/NoTrueConditionException';
+import ConditionalActionFactory from './factory/ConditionalActionFactory';
+import IConditionalAction, { ActionType, ConditionType } from './interfaces/IConditionalAction';
+
+export { IConditionalAction as IConditionalAction, ActionType, ConditionType, NoTrueConditionException };
+
+export default ConditionalActionFactory;
